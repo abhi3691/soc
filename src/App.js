@@ -1,7 +1,5 @@
 /** @format */
 import "./App.css";
-import ArrowDropDownCircleOutlined from "@material-ui/icons/ArrowDropDownCircleOutlined";
-import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 function App() {
   return (
     <div>
@@ -13,6 +11,8 @@ function App() {
             background: "#2C387E",
             flexDirection: "row",
             alignItems: "center",
+            paddingLeft: 10,
+            paddingRight: 10,
             justifyContent: "space-between",
             display: "flex",
           }}>
@@ -25,9 +25,10 @@ function App() {
               style={{
                 color: "#fff",
                 paddingLeft: 10,
-                font: "Poppins",
-                width: "700px",
+                fontFamily: "Poppins",
+                width: "630px",
                 fontSize: 25,
+
                 fontWeight: "inherit",
               }}>
               STUDENTS ONLY CHOICE
@@ -37,7 +38,7 @@ function App() {
             <button
               style={{
                 height: 30,
-                width: 150,
+                width: 160,
                 background: "#fff",
                 marginLeft: 20,
                 borderRadius: 3,
@@ -51,18 +52,22 @@ function App() {
               <p style={{ fontSize: 12, alignSelf: "center", font: "Roboto" }}>
                 TOP COURSES
               </p>
-              <ArrowDropDownCircleOutlined style={{ height: 20 }} />
+              <img
+                src={require("./assets/images/arrow.png")}
+                style={{ height: 20 }}
+              />
             </button>
             <div
               style={{
                 height: 30,
-                width: 250,
+                width: 300,
                 background: "#fff",
                 marginLeft: 20,
-                borderRadius: 3,
+                borderRadius: 7,
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
+
                 justifyContent: "space-between",
               }}>
               <input
@@ -70,13 +75,16 @@ function App() {
                 style={{
                   height: 20,
                   fontSize: 12,
-                  width: 200,
+                  width: 280,
                   margin: 10,
                   paddingLeft: 10,
                   outline: "none",
                 }}
               />
-              <SearchOutlinedIcon style={{ paddingRight: 10 }} />
+              <img
+                src={require("./assets/images/search.png")}
+                style={{ height: 20, paddingRight: 10 }}
+              />
             </div>
           </div>
         </nav>
