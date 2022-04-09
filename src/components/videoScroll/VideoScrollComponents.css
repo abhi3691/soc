@@ -1,0 +1,61 @@
+.videoBox{
+    height: 300px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin: 20px;
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+.video{
+    height: 100%;
+   width: 100%;
+    display: flex;
+    object-fit: cover;
+}
+.ScrollBar{
+    position: absolute;
+    height: 8%;
+    width: 25%;
+    border: 1px solid #00087B;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 25%;
+    left: 38%;
+    background: #FFFFFF;
+
+    
+
+}
+
+.ScrollButton{
+    height: 30%;
+    width: 20%;
+border: 1px solid #00087B;
+background: #FFFFFF;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+#scBtn1{
+   background:  #00087B 0% 0% no-repeat padding-box;
+}
+.mute{
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border: none;
+    position: absolute;
+    height: 6%;
+    width: 6%;
+    bottom: 30%;
+    left: 5%;
+    cursor: pointer;
+}
