@@ -1,4 +1,4 @@
-.videoBox{
+.videoBox {
     height: 300px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -8,15 +8,17 @@
     display: block;
     justify-content: center;
     align-items: center;
-   
+
 }
-.video{
+
+.video {
     height: 100%;
-   width: 100%;
+    width: 100%;
     display: flex;
     object-fit: cover;
 }
-.ScrollBar{
+
+.ScrollBar {
     position: absolute;
     height: 8%;
     width: 25%;
@@ -31,31 +33,38 @@
     left: 38%;
     background: #FFFFFF;
 
-    
+
 
 }
 
-.ScrollButton{
+.ScrollButton {
     height: 30%;
     width: 20%;
-border: 1px solid #00087B;
-background: #FFFFFF;
-border-radius: 10px;
-cursor: pointer;
-
-}
-
-#scBtn1{
-   background:  #00087B 0% 0% no-repeat padding-box;
-}
-.mute{
-    background-color: #FFFFFF;
-    box-shadow: 0px 3px 6px #00000029;
-    border: none;
-    position: absolute;
-    height: 6%;
-    width: 6%;
-    bottom: 30%;
-    left: 5%;
+    border: 1px solid #00087B;
+    background: #FFFFFF;
+    border-radius: 10px;
     cursor: pointer;
+
+}
+
+#scBtn1 {
+    background: #00087B 0% 0% no-repeat padding-box;
+}
+
+.mute {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    backdrop-filter: blur(50px);
+    border: none;
+    bottom: 30%;
+    position: absolute;
+    left: 5%;
+    width: 5%;
+    height: 7%;
+    cursor: pointer;
+}
+.muteIcon{
+background: #FFFFFF 0% 0% no-repeat padding-box;
 }
